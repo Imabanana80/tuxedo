@@ -36,9 +36,9 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
-2. Copy into ${XDG_CONFIG_HOME:-$HOME/.config}/tuxedo/themes/
-3. Open tuxedo and press T then select the flavor you chose.
+1. Download the flavor of your choice from the [themes](https://github.com/Imabanana80/tuxedo/tree/main/themes) directory.
+2. Copy your downloaded `catppuccin-[flavor].toml` file into `${XDG_CONFIG_HOME:-$HOME/.config}/tuxedo/themes/`.
+3. Open tuxedo and press `T` then select the flavor you chose.
 
 ## 💝 Thanks to
 
