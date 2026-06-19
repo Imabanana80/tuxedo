@@ -1,4 +1,4 @@
-# Catppuccin Frappe for tuxedo.
+# Catppuccin Frappé for tuxedo.
 # Copy into ${XDG_CONFIG_HOME:-$HOME/.config}/tuxedo/themes/ and press T to select it.
 name = Catppuccin Frappé
 bg = #292c3c

@@ -1,0 +1,36 @@
+---
+whiskers:
+  version: "^2.9.0"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.toml"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+# Catppuccin {{ flavor.name }} for tuxedo.
+# Copy into ${XDG_CONFIG_HOME:-$HOME/.config}/tuxedo/themes/ and press T to select it.
+name = Catppuccin {{ flavor.name }}
+bg = {{ mantle.hex }}
+panel = {{ base.hex }}
+border = {{ overlay0.hex }}
+fg = {{ text.hex }}
+dim = {{ overlay1.hex }}
+accent = {{ yellow.hex }}
+cursor = {{ surface2.hex }}
+selection = {{ surface1.hex }}
+statusbar = {{ surface0.hex }}
+status_fg = {{ subtext0.hex }}
+mode_fg = {{ base.hex }}
+mode_bg = {{ yellow.hex }}
+pri_a = {{ red.hex }}
+pri_b = {{ yellow.hex }}
+pri_c = {{ green.hex }}
+pri_d = {{ blue.hex }}
+pri_other = {{ mauve.hex }}
+project = {{ teal.hex }}
+context = {{ peach.hex }}
+due = {{ yellow.hex }}
+overdue = {{ red.hex }}
+today = {{ maroon.hex }}
+done = {{ overlay0.hex }}
+selected = {{ surface0.hex }}
+matched = {{ overlay2.hex }}
